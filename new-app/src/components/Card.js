@@ -24,6 +24,7 @@ const Card = ({ job, setKeywords, keywords }) => {
     }
   };
 
+  
   useEffect(() => {
     modifiedData();
   },[keywords]);
